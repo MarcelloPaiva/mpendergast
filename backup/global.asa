@@ -1,0 +1,9 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+	Sub Application_OnStart
+		Application.Lock
+			Application("intUploadPath") = server.MapPath("/imagesDB")
+		Application.Unlock
+	End Sub
+
+</SCRIPT>

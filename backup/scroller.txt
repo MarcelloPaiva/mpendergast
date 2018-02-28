@@ -1,0 +1,38 @@
+&diretorio=imgs/&
+&imagens=hpf01.jpg,hpf02.jpg,hpf03.jpg,hpf04.jpg,hpf05.jpg,hpf06.jpg,hpf07.jpg,hpf08.jpg,hpf09.jpg,hpf10.jpg&
+
+&buyers1=Featured Properties&
+&buyers1_link=propertyList.asp&
+
+&buyers2=Search MLS&
+&buyers2_link=searchMLS.asp&
+
+&buyers3=Getting Ready to Buy&
+&buyers3_link=genSections.asp?sec=1&
+
+&buyers4=About Us&
+&buyers4_link=genSections.asp?sec=5&
+
+&buyers5=Schedule an Appointment&
+&buyers5_link=contact2.asp&
+
+
+
+
+&sellers1=Our Credentials&
+&sellers1_link=genSections.asp?sec=6&
+
+&sellers2=Our Philosophy&
+&sellers2_link=genSections.asp?sec=5&
+
+&sellers3=Portfolio of Sold Properties&
+&sellers3_link=portfolio.asp&
+
+&sellers4=Testimonials&
+&sellers4_link=testimonials.asp&
+
+&sellers5=Getting Ready to Sell&
+&sellers5_link=genSections.asp?sec=3&
+
+&sellers6=Schedule an Appointment&
+&sellers6_link=contact2.asp&

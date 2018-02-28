@@ -1,0 +1,1 @@
+<img src="images/ftr_legal_01.gif" width="720" height="13" border="0" usemap="#FooterMap"><map name="FooterMap"><area shape="rect" coords="551,2,628,23" href="privacy.asp"><area shape="rect" coords="648,2,712,34" href="terms.asp"></map>

@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^(www.)?afasdfashflasd.com$
+RewriteCond %{REQUEST_URI} !^/test/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /test/$1
+RewriteCond %{HTTP_HOST} ^(www.)?afasdfashflasd.com$
+RewriteRule ^(/)?$ test/$1 [L]

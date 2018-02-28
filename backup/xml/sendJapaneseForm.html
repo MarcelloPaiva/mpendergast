@@ -1,0 +1,40 @@
+<%@ Language=VBScript %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html;CHARSET=utf-8">
+<title>Send Japanese Email</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<form method="post" action="SendJapanese.asp">
+  <p>From 
+    <input type="text" name="From" value="Chilkat Support <support@chilkatsoft.com>" size="80">
+  </p>
+  <p>To 
+    <input type="text" name="Recipient" size="80" value="以上」とする <matt@chilkatsoft.com>">
+  </p>
+  <p>Subject 
+    <input type="text" name="Subject" size="80" value="パートタイマーの厚生年金加入拡大へ">
+  </p>
+  <p>Body 
+    <textarea name="HtmlBody" cols="80" rows="12">
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Sample Japanese HTML&lt;/title&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+&lt;/head&gt;
+&lt;body bgcolor="#FFFFFF"&gt;
+&lt;h2&gt;パートタイマーの厚生年金加入拡大へ &lt;/h2&gt;
+&lt;p&gt;&lt;font color="#6600CC" size="+1"&gt;パートタイマーの厚生年金加入拡大へ&lt;/font&gt; &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</textarea>
+  </p>
+  <p>
+    <input type="submit" name="Submit" value="Submit">
+  </p>
+</form>
+</body>
+</html>

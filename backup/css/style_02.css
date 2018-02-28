@@ -1,0 +1,416 @@
+/*################################################################*/
+/* MARTHA PENDERGAST INTERFACE STYLES				 			  */
+/*################################################################*/
+
+html {height:100%;}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	height: 100%;
+}
+
+hr {
+	color: #FFFFFF;
+}
+
+td {color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	}
+
+
+a:link 		{color: #990000; text-decoration: none;}
+a:visited 	{color: #990000; text-decoration: none;}
+a:active 	{color: #990000; text-decoration: none;}
+a:hover 	{color: #990000; text-decoration: underline;}
+
+
+/*################################################################*/
+/* GLOBAL NAVIGATION											  */
+/*################################################################*/
+
+.tnav01 			{color: #DDC57D; font-family: Tahoma, Arial, Helvetica, sans-serif; font-weight:bold;}
+a.tnav01:link 		{color: #DDC57D; text-decoration: none;}
+a.tnav01:visited 	{color: #DDC57D; text-decoration: none;}
+a.tnav01:active 	{color: #DDC57D; text-decoration: none;}
+a.tnav01:hover 		{color: #E9BE3C; text-decoration: none;}
+
+/*################################################################*/
+/* CONTENT AREA  				 							  */
+/*################################################################*/
+
+.cntHdr01 {
+	color: #000000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	vertical-align: bottom;
+}
+a.cntHdr01:link 	{color: #000000; text-decoration: none;}
+a.cntHdr01:visited 	{color: #000000; text-decoration: none;}
+a.cntHdr01:active 	{color: #000000; text-decoration: none;}
+a.cntHdr01:hover 	{color: #FF0000; text-decoration: underline;}
+
+.cntTxt01 {
+	color: #666666;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	vertical-align: top;
+	line-height: 14pt;
+}
+a.cntTxt01:link 	{color: #000000; text-decoration: none;}
+a.cntTxt01:visited 	{color: #000000; text-decoration: none;}
+a.cntTxt01:active 	{color: #000000; text-decoration: none;}
+a.cntTxt01:hover 	{color: #FF0000; text-decoration: underline;}
+
+/* PROPERTY FEATURES HEADER AND ALTERNATING COLORS */
+
+td.cntFeaHdr01 {
+	color: #FFFFFF;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	text-indent: 10px;
+	background-color: #666666;
+	background: #666666;
+}
+td.cntFeaHdr01 a	{color: #620000; text-decoration: none; display: block; width: 100%;}
+td.cntFeaHdr01 a:visited 	{color: #620000; text-decoration: none;}
+td.cntFeaHdr01 a:active 	{color: #620000; text-decoration: none;}
+td.cntFeaHdr01 a:hover 	{color: #000000; text-decoration: none; background: #FFFFFF; background-color: #FFFFFF;}
+
+td.cntFeaFtr01 {
+	color: #580101;
+	text-indent: 10px;
+	background-color: #666666;
+	background: #666666;
+	height: 5px;
+}
+
+td.cntFea01 {
+	color: #000000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	text-indent: 10px;
+	background-color: #FFFFFF;
+	background: #FFFFFF;
+}
+td.cntFea01 a	{color: #620000; text-decoration: none; display: block; width: 100%;}
+td.cntFea01 a:visited 	{color: #620000; text-decoration: none;}
+td.cntFea01 a:active 	{color: #620000; text-decoration: none;}
+td.cntFea01 a:hover 	{color: #000000; text-decoration: none; background: #FFFFFF; background-color: #FFFFFF;}
+
+td.cntFea02 {
+	color: #000000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	text-indent: 10px;
+	background-color: #F6F6F6;
+	background: #F6F6F6;
+}
+td.cntFea02 a	{color: #620000; text-decoration: none; display: block; width: 100%;}
+td.cntFea02 a:visited 	{color: #620000; text-decoration: none;}
+td.cntFea02 a:active 	{color: #620000; text-decoration: none;}
+td.cntFea02 a:hover 	{color: #000000; text-decoration: none; background: #FFFFFF; background-color: #FFFFFF;}
+
+
+td.photo01 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #999999;
+}
+
+td.photo01 a	{border: 2px; border-color: #ffffff; border-style: solid;}
+td.photo01 a:visited 	{border: 2px; border-color: #ffffff; border-style: solid;}
+td.photo01 a:active 	{border: 2px; border-color: #ffffff; border-style: solid;}
+td.photo01 a:hover 	{border: 2px; border-color: #CC0000; border-style: solid; background-color: #000000;
+}
+
+
+
+/*################################################################*/
+/* LEFT NAVIGATION  				 							  */
+/*################################################################*/
+
+.lnavBorder {
+	border-top-color: #D4A858;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+.lnavBorderEnd {
+	border-bottom-color: #D4A858;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+
+/* PAGE RELATED NAVIGATION */
+td.lnav01 {
+	color: #620000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	line-height: 14pt;
+	border-top: 1px solid #D4A858;
+	text-indent: 10px;
+}
+td.lnav01 a	{color: #620000; text-decoration: none;	display: block; width: 100%; height: 100%;}
+td.lnav01 a:visited {color: #620000; text-decoration: none;}
+td.lnav01 a:active 	{color: #620000; text-decoration: none;}
+td.lnav01 a:hover 	{color: #ffffff; text-decoration: none; background: #990000; background-color: #990000;}
+
+/* PAGE RELATED SUB-NAVIGATION */
+td.lnav01sub {
+	color: #620000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	border-top: 1px solid #D4A858;
+	text-indent: 10px;
+	background-color: #EFDF80;
+	background: #EFDF80;
+}
+td.lnav01sub a	{
+	color: #620000;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+td.lnav01sub a:visited {color: #620000; text-decoration: none;}
+td.lnav01sub a:active 	{color: #620000; text-decoration: none;}
+td.lnav01sub a:hover 	{color: #000000; text-decoration: none; background: #FFFFFF; background-color: #FFFFFF;}
+
+/* GENERAL NAVIGATION */
+td.lnav02 {
+	color: #660000;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	line-height: 14pt;
+	text-indent: 20px;
+}
+td.lnav02 a	{color: #660000; text-decoration: none;	display: block; width: 100%; height: 100%;}
+td.lnav02 a:visited {color: #660000; text-decoration: none;}
+td.lnav02 a:active 	{color: #660000; text-decoration: none;}
+td.lnav02 a:hover 	{color: #000000; text-decoration: none; background: #DDBA4F; background-color: #DDBA4F;}
+
+/*################################################################*/
+/* NEWS / TESTIMONIALS											  */
+/*################################################################*/
+
+td.nws01 {
+	color: #996633;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	line-height: 14pt;
+	border: 1px solid #8C391D;
+	text-indent: 10px;
+	background: #580101; background-color: #580101;
+}
+td.nws02 {
+	color: #996633;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	line-height: 14pt;
+	text-indent: 10px;
+	background: #580101; background-color: #580101;
+}
+td.nws02 a	{color: #996633; text-decoration: none;	display: block; width: 100%; height: 100%;}
+td.nws02 a:visited {color: #996633; text-decoration: none;}
+td.nws02 a:active 	{color: #996633; text-decoration: none;}
+td.nws02 a:hover 	{color: #FFCC00; text-decoration: none;}
+
+td.tst01 {
+	color: #996633;
+	font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	line-height: 14pt;
+	background: #580101;
+	background-color: #580101;
+	padding: 10px;
+}
+td.tst01 a	{color: #CC9900; text-decoration: none;}
+td.tst01 a:visited {color: #CC9900; text-decoration: none;}
+td.tst01 a:active 	{color: #CC9900; text-decoration: none;}
+td.tst01 a:hover 	{color: #FFCC00; text-decoration: none;}
+
+/*################################################################*/
+/* FOOTER				 										  */
+/*################################################################*/
+
+td.ftr01 {
+	color: #996633;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: normal;
+	line-height: 14pt;
+	border-bottom: 1px solid #4C0000;
+	text-indent: 10px;
+	background: #620000; background-color: #620000;
+}
+td.ftr01 a	{color: #620000; text-decoration: none;	display: block; width: 100%; height: 100%;}
+td.ftr01 a:visited {color: #620000; text-decoration: none;}
+td.ftr01 a:active 	{color: #620000; text-decoration: none;}
+td.ftr01 a:hover 	{color: #ffffff; text-decoration: none; background: #990000; background-color: #990000;}
+
+/*################################################################*/
+/* ADMINISTRATION CLASSES							 						  */
+/*################################################################*/
+td.admHdr01 {
+	color: #996633;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 16pt;
+	font-weight: normal;
+	line-height: 24pt;
+	border-bottom: 1px solid #cccccc;
+	padding-top: 20px;
+	text-transform: uppercase;
+}
+td.admHdr01 a	{color: #620000; text-decoration: none;	display: block; width: 100%; height: 100%;}
+td.admHdr01 a:visited {color: #620000; text-decoration: none;}
+td.admHdr01 a:active 	{color: #620000; text-decoration: none;}
+td.admHdr01 a:hover 	{color: #ffffff; text-decoration: none; background: #990000; background-color: #990000;}
+
+/*################################################################*/
+/* FORM ELEMENTS					 							  */
+/*################################################################*/
+.InputText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	background-color: #FFFFCC;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CC9933;
+	border-right-color: #CC9933;
+	border-bottom-color: #CC9933;
+	border-left-color: #CC9933;
+}
+.Button {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFCC00;
+	background-color: #990000;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #FF6600;
+	border-right-color: #330000;
+	border-bottom-color: #330000;
+	border-left-color: #FF6600;
+	cursor: hand;
+	font-weight: bold;
+}
+
+textarea, input, select {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	background-color: #FFFFCC;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CC9933;
+	border-right-color: #CC9933;
+	border-bottom-color: #CC9933;
+	border-left-color: #CC9933;
+	line-height: 14px;
+}
+
+.true {
+	background-color: #669900;
+		color: #FFFFFF;
+}
+.false {
+	background-color: #CC0000;
+		color: #FFFFFF;
+}
+
+/*################################################################*/
+/* NEWS POPUP STYLES */
+/*################################################################*/
+.newsPopBody { background-color:#f6f6f6;}
+
+.newsPopBack { background-color:#ffffff;
+			 border:1px solid #CCCCCC;
+}
+
+.newsPopTitle {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 17pt;
+	color: #000000;
+	font-weight: 500;
+	font-style: italic;
+}
+.newsPopDescr {
+	line-height: 18pt;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 11pt;
+}
+	.newsPopDescr :link {color: #0033FF; text-decoration: none;}
+	.newsPopDescr :visited {color: #0033FF; text-decoration: none;}
+	.newsPopDescr :hover {color: #0000FF; text-decoration: underline;}
+.newsPopHP {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #999999;
+}
+	.newsPopHP :link {color: #999999; text-decoration: none;}
+	.newsPopHP :visited {color: #999999; text-decoration: none;}
+	.newsPopHP :hover {color: #990000; text-decoration: underline;}	
+	
+
+
+/*################################################################*/
+/* SAMPLE CLASS - DO NOT USE	 								  */
+/*################################################################*/
+
+.className {
+	font: 11px Tahoma,Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+a.className:link 	{color: #0000FF; text-decoration: none;}
+a.className:visited {color: #0000FF; text-decoration: none;}
+a.className:active 	{color: #0000FF; text-decoration: none;}
+a.className:hover 	{color: #FFFF66; text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+&diretorio=imgs/&
+&imagens=pic01.jpg,pic02.jpg,pic03.jpg,pic04.jpg,pic03.jpg&
+
+&buyers1=Featured Properties&
+&buyers1_link=link1.html&
+
+&buyers2=Search MLS&
+&buyers2_link=link2.html&
+
+&buyers3=Getting Ready to Buy&
+&buyers3_link=link3.html&
+
+&buyers4=About Us&
+&buyers4_link=link4.html&
+
+&buyers5=Schedule an Appointment&
+&buyers5_link=link5.html&
+
+
+
+
+
+&titulos_sub02=Our Credentials,Our Philosophy,Portfolio of Sold Properties,Testimonials,Getting Ready to Sell,Schedule an Appointment&
+&links_sub02=teste01.htm,teste01.htm,teste02.htm,teste03.htm,teste04.htm,teste05.htm&
